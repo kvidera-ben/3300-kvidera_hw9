@@ -11,12 +11,17 @@
 
     <form action="kvidera_p2.html" method="POST">
 
-    <p>My home country is <input type="text" autofocus></p>
-
-    <p>My home town is <input type="text" required>
-        <i class="fa-solid fa-circle-info" title="What town did you live in before coming to college?"></i>
-    </p>
-
+        <p>
+            <label for="country">My home country is</label>
+            <input type="text" id="country" autofocus>
+        </p>
+        
+        <p>
+            <label for="hometown">My home town is </label>
+            <input type="text" id="hometown" required>
+            <i class="fa-solid fa-circle-info" title="What town did you live in before coming to college?"></i>
+        </p>
+        
     <p>My home state 
         <select name="state" id="state-select">
             <option value="">-- choose state/territory --</option>
@@ -91,7 +96,8 @@
             <option value="5">Very negative, value = 1</option>
         </select>
     </p>
-    <input type="submit" value="Next">
+
+    <button type="submit">Next</button>
     </form>
     <footer>
         page 1 of 2

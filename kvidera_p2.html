@@ -3,37 +3,35 @@
 <head>
     <meta charset="utf-8">
     <title>Business Analytics Student Survey</title>
-    <!--Link Stylesheet-->
-
+    <!-- Link Stylesheet -->
 </head>
 <body>
     <h1>Business Analytics Student Survey</h1>
 
     <form action="kvidera_ty.html" method="POST">
 
-        <p>I am finishing my
-        <br>
-            <label><input type="radio" name="year" value="1" required> First year at Iowa</label><br>
-            <label><input type="radio" name="year" value="2"> Second year at Iowa</label><br>
-            <label><input type="radio" name="year" value="3"> Third year at Iowa</label><br>
-            <label><input type="radio" name="year" value="4"> Fourth year at Iowa</label><br>
-            <label><input type="radio" name="year" value="5"> Fifth or more year at Iowa</label>
-        </p>
-        
-    <p>BAIS corse classes I have completed
-    <br>
-        <label><input type="checkbox" name="classes" value="IS"> Information Systems </label><br>
-        <label><input type="checkbox" name="classes" value="Operations"> Operations</label><br>
-        <label><input type="checkbox" name="classes" value="FBA"> Foundations of Business Analytics</label><br>
-        <label><input type="checkbox" name="classes" value="CT"> Computational Thinking</label><br>
-        <label><input type="checkbox" name="classes" value="DBM"> Database Management</label><br>
-        <label><input type="checkbox" name="classes" value="DW"> Data Wrangling</label><br>
-        <label><input type="checkbox" name="classes" value="DM"> Data Mining</label><br>
-        <label><input type="checkbox" name="classes" value="Cap"> BAIS Capstone</label><br>
-    </p>
+        <p>I am finishing my</p>
+            <label for="year-1"><input type="radio" name="year" id="year-1" value="1" required> First year at Iowa</label><br>
+            <label for="year-2"><input type="radio" name="year" id="year-2" value="2"> Second year at Iowa</label><br>
+            <label for="year-3"><input type="radio" name="year" id="year-3" value="3"> Third year at Iowa</label><br>
+            <label for="year-4"><input type="radio" name="year" id="year-4" value="4"> Fourth year at Iowa</label><br>
+            <label for="year-5"><input type="radio" name="year" id="year-5" value="5"> Fifth or more year at Iowa</label><br>
 
-    <input type="submit" value="Next">
+        
+        <p>BAIS course classes I have completed</p>
+            <label for="class-IS"><input type="checkbox" name="classes" id="class-IS" value="IS"> Information Systems</label><br>
+            <label for="class-Operations"><input type="checkbox" name="classes" id="class-Operations" value="Operations"> Operations</label><br>
+            <label for="class-FBA"><input type="checkbox" name="classes" id="class-FBA" value="FBA"> Foundations of Business Analytics</label><br>
+            <label for="class-CT"><input type="checkbox" name="classes" id="class-CT" value="CT"> Computational Thinking</label><br>
+            <label for="class-DBM"><input type="checkbox" name="classes" id="class-DBM" value="DBM"> Database Management</label><br>
+            <label for="class-DW"><input type="checkbox" name="classes" id="class-DW" value="DW"> Data Wrangling</label><br>
+            <label for="class-DM"><input type="checkbox" name="classes" id="class-DM" value="DM"> Data Mining</label><br>
+            <label for="class-Cap"><input type="checkbox" name="classes" id="class-Cap" value="Cap"> BAIS Capstone</label><br>
+        
+
+        <button type="submit">Next</button>
     </form>
+
     <footer>
         page 2 of 2
     </footer>
